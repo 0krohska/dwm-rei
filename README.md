@@ -17,17 +17,18 @@ you can see:
 - ncpamixer
 
 ## install
-install with your packet manager alacritty, picom and make
+install with your packet manager needed software
 
 debian(-based):
 ```bash
-sudo (doas) apt install alacritty picom make
+sudo (doas) apt install alacritty picom make xsetroot feh
 ```
 arch(-based):
 ```bash
-sudo (doas) pacman -S alacritty picom make
+sudo (doas) pacman -S alacritty picom make xsetroot feh
 ```
 
+you also need JetbrainsMono Font
 
 enter to terminal:
 ```bash
