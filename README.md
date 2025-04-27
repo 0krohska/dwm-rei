@@ -31,15 +31,15 @@ install with your packet manager needed software:
 
 debian(-based):
 ```bash
-sudo (doas) apt install alacritty picom make xsetroot feh
+sudo (doas) apt install alacritty picom make xsetroot feh dmenu
 ```
 arch(-based):
 ```bash
-sudo (doas) pacman -S alacritty picom make xsetroot feh
+sudo (doas) pacman -S alacritty picom make xsetroot feh dmenu
 ```
 gentoo(distros with portage):
 ```bash
-doas (sudo) emerge alacritty picom make xsetroot feh
+doas (sudo) emerge alacritty picom make xsetroot feh dmenu
 ```
 
 you also need JetbrainsMono Font
