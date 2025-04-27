@@ -18,9 +18,14 @@ you can see:
 
 ## install
 install with your packet manager alacritty, picom and make
+
+debian(-based):
 ```bash
-debian(-based):sudo (doas) apt install alacritty picom make
-arch(-based):sudo (doas) pacman -S alacritty picom make
+sudo (doas) apt install alacritty picom make
+```
+arch(-based):
+```bash
+sudo (doas) pacman -S alacritty picom make
 ```
 
 copy startdwm.sh and date.sh to /usr/local/bin/
