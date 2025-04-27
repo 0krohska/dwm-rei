@@ -2,6 +2,11 @@
 suckless's dwm rei theme
 
 ## info
+
+![Screenshot](./dwm.png)
+
+![Screenshot](./dwm1.png)
+
 you can see:
 - dwm
 - alacritty
