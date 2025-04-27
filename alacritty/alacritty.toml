@@ -1,0 +1,8 @@
+[window]
+opacity = 0.66
+blur = true
+[font]
+normal = { family = "jetbrains mono", style = "Regular" }
+bold = { family = "jetbrains mono", style = "Bold" }
+italic = { family = "jetbrains mono", style = "Italic" }
+
