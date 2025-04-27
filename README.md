@@ -17,7 +17,13 @@ you can see:
 - ncpamixer
 
 ## install
-install with your packet manager needed software
+install with your packet manager needed software:
+
+- alacritty
+- picom
+- make
+- xsetroot
+- feh
 
 debian(-based):
 ```bash
@@ -29,6 +35,7 @@ sudo (doas) pacman -S alacritty picom make xsetroot feh
 ```
 
 you also need JetbrainsMono Font
+
 
 enter to terminal:
 ```bash
