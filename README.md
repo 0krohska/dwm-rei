@@ -37,6 +37,10 @@ arch(-based):
 ```bash
 sudo (doas) pacman -S alacritty picom make xsetroot feh
 ```
+gentoo(distros with portage):
+```bash
+doas (sudo) emerge alacritty picom make xsetroot feh
+```
 
 you also need JetbrainsMono Font
 
