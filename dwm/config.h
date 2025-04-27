@@ -103,6 +103,7 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_q,      spawn,          SHCMD("killall startdwm.sh") },
 	{ MODKEY|ShiftMask,             XK_r,      spawn,          SHCMD("killall dwm; killall date.sh") },
+	{ 0,                            XK_Print,  spawn,          SHCMD("flameshot gui") },
 };
 
 /* button definitions */
