@@ -24,6 +24,7 @@ install with your packet manager needed software:
 - make
 - xsetroot
 - feh
+- dmenu
 
 debian(-based):
 ```bash
