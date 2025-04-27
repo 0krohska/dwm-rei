@@ -28,12 +28,14 @@ arch(-based):
 sudo (doas) pacman -S alacritty picom make
 ```
 
-copy startdwm.sh and date.sh to /usr/local/bin/
 
 enter to terminal:
 ```bash
 git clone https://github.com/0krohska/dwm-rei
-cd dwm-rei/dwm
+cd dwm-rei
+sudo (doas)cp -r startdwm.sh date.sh /usr/local/bin/
+cd dwm
+make
 sudo (doas) make install
 ```
 
