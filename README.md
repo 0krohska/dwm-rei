@@ -9,6 +9,7 @@ you can see:
 - flameshot
 - pfetch
 - dmenu
+- ncpamixer
 
 ## install
 install with your packet manager alacritty and picom
