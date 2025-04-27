@@ -1,5 +1,8 @@
 # dwm-rei
-suckless's dwm rei theme
+
+![Screenshot](./5220042280658923639.jpg)
+
+### suckless's dwm rei theme
 
 ## info
 
