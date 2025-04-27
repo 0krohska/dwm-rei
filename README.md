@@ -17,10 +17,10 @@ you can see:
 - ncpamixer
 
 ## install
-install with your packet manager alacritty and picom
+install with your packet manager alacritty, picom and make
 ```bash
-debian(-based):sudo (doas) apt install alacritty picom
-arch(-based):sudo (doas) pacman -S alacritty picom
+debian(-based):sudo (doas) apt install alacritty picom make
+arch(-based):sudo (doas) pacman -S alacritty picom make
 ```
 
 copy startdwm.sh and date.sh to /usr/local/bin/
