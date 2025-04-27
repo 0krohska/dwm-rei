@@ -39,7 +39,7 @@ make
 sudo (doas) make install
 ```
 
-if you use display manager, copy dwm.desktop to /usr/share/xsessions/ and login with "dwm" session
+if you use display manager, copy dwm.desktop to /usr/share/xsessions/ 
 ```bash
 cd .. # to "dwm-rei"
 sudo (doas) cp dwm.desktop /usr/share/xsessions/
@@ -59,4 +59,16 @@ cp 662219.png ~/Pictures/
 copy "alacritty" and "picom" folders to ~/.config/
 ```bash
 cp -r alacritty picom ~/.config
+```
+
+## login
+
+login with display manager 
+
+#### or
+
+enter in tty
+
+```bash
+startx
 ```
