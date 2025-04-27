@@ -32,10 +32,24 @@ cd dwm-rei/dwm
 sudo (doas) make install
 ```
 
-if you use display manager, copy dwm.desktop to /usr/share/xsessions/
+if you use display manager, copy dwm.desktop to /usr/share/xsessions/ and login with "dwm" session
+```bash
+cd .. # to "dwm-rei"
+sudo (doas) cp dwm.desktop /usr/share/xsessions/
+```
 
-else you use xinit (startx), write to ~/.xinitrc "exec startswm.sh" and login with "dwm" session
+if you use xinit (startx), write to ~/.xinitrc "exec /usr/local/bin/startdwm.sh" 
+```bash
+echo "exec /usr/local/bin/startdwm.sh" >> ~/.xinitrc
+```
 
 copy 662219.png to ~/Pictures/
+```bash
+mkdir ~/Pictures # if haven't
+cp 662219.png ~/Pictures/
+```
 
 copy "alacritty" and "picom" folders to ~/.config/
+```bash
+cp -r alacritty picom ~/.config
+```
