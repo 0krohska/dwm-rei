@@ -16,7 +16,6 @@ you can see:
 - picom
 - flameshot
 - pfetch
-- dmenu
 - ncpamixer
 
 ## install
